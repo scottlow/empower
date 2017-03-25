@@ -18,9 +18,11 @@
       "run_at": "document_idle"
     }
   ],
+  "permissions": [
+    "nativeMessaging"
+  ],
   "-ms-preload": {
     "backgroundScript": "backgroundScriptsAPIBridge.js",
     "contentScript": "contentScriptsAPIBridge.js"
   }
 }
-

@@ -1,5 +1,11 @@
+function donateResponse(response) {
+
+}
+
 function donate() {
     alert("Trump is Fucked");
+    //  PFaN:  49468dumbnoseapps.EmpowerUp_hr4knkk4we5dp
+    browser.runtime.sendNativeMessage("com.dumbnose.empowerup.donate", "message", donateResponse);
 }
 
 function displayDonateBtn() {
