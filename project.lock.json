@@ -15614,10 +15614,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "c:\\src\\tfs\\Empower\\Empower.csproj",
+      "projectUniqueName": "C:\\src\\git\\Empower\\Empower.csproj",
       "projectName": "Empower",
-      "projectPath": "c:\\src\\tfs\\Empower\\Empower.csproj",
-      "projectJsonPath": "c:\\src\\tfs\\Empower\\project.json",
+      "projectPath": "C:\\src\\git\\Empower\\Empower.csproj",
+      "projectJsonPath": "C:\\src\\git\\Empower\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

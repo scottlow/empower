@@ -1,0 +1,26 @@
+{
+  "author": "John Sheehan / KC Lemson",
+  "manifest_version": 2,
+  "name": "Empowerup",
+  "version": "1.0",
+  "description": "Quickly donate to your favorite cause when you read about important issues.",
+  "icons": {
+    "48": "Square44x44Logo.scale-100.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "-ms-preload": {
+    "backgroundScript": "backgroundScriptsAPIBridge.js",
+    "contentScript": "contentScriptsAPIBridge.js"
+  }
+}
+
