@@ -3,3 +3,4 @@ bin/
 .vs/
 AppPackages/
 BundleArtifacts/
+*.suo
