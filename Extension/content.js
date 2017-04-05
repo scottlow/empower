@@ -1,11 +1,16 @@
 function donateResponse(response) {
+    alert("Trump is Fucked");
 
 }
 
 function donate() {
-    alert("Trump is Fucked");
     //  PFaN:  49468dumbnoseapps.EmpowerUp_hr4knkk4we5dp
-    browser.runtime.sendNativeMessage("com.dumbnose.empowerup.donate", "message", donateResponse);
+    try {
+        browser.runtime.sendNativeMessage("com.dumbnose.empowerup.donate", "message", donateResponse);
+        alert("About to fuck Trump");
+    } catch (ex) {
+        alert("Caught exception: " + ex);
+    }
 }
 
 function displayDonateBtn() {

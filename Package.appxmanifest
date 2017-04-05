@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" IgnorableNamespaces="uap mp uap3">
-  <Identity Name="49468dumbnoseapps.EmpowerUp" Publisher="CN=68623379-24F8-4E2D-90A0-6740E59D368D" Version="1.1.0.0" />
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" IgnorableNamespaces="uap mp">
+  <Identity Name="49468dumbnoseapps.EmpowerUp" Publisher="CN=68623379-24F8-4E2D-90A0-6740E59D368D" Version="1.1.3.0" />
   <mp:PhoneIdentity PhoneProductId="a0e665b2-0860-4110-a5b9-02a5601e6923" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>EmpowerUp</DisplayName>
@@ -22,7 +22,7 @@
       </uap:VisualElements>
       <Extensions>
         <uap:Extension Category="windows.appService">
-          <uap:AppService Name="com.dumbnose.empowerup.donate" ServerName="Empower.BackgroundTasks.DonateAppService" />
+          <uap:AppService Name="com.dumbnose.empowerup.donate" ServerName="EmpowerUp.BackgroundTasks.DonateAppService" />
         </uap:Extension>
         <uap3:Extension Category="windows.appExtension">
           <uap3:AppExtension Name="com.microsoft.edge.extension" Id="EdgeExtension" PublicFolder="Extension" DisplayName="EmpowerUp">
